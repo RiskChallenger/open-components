@@ -1,0 +1,17 @@
+@import "light-extended.css";
+@import "dark-extended.css";
+
+:where(html) {
+  --surface-0: white;
+  --surface-contrast: var(--gray-9);
+  --text-3: var(--gray-6);
+  --text-contrast: var(--gray-0);
+}
+
+@media (prefers-color-scheme: dark) {
+  :where(html) {
+    --surface-0: var(--gray-10);
+    --surface-contrast: var(--gray-0);
+    --text-contrast: var(--gray-9);
+  }
+}

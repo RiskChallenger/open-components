@@ -1,0 +1,55 @@
+<h2>Modals</h2>
+<div class="three-columns">
+  <div class="header">Type</div>
+  <div class="header">Example</div>
+  <div class="header">Source code</div>
+
+  Body only
+  <button data-open-modal data-template="body-modal">Body modal</button>
+  <template id="body-modal">
+    <div class="backdrop">
+      <div class="modal">
+        <div class="modal-body">
+          <p>Simple modal with only a body</p>
+        </div>
+      </div>
+    </div>
+  </template>
+  <code></code>
+
+  Body and footer
+  <button data-open-modal data-template="body-footer-modal">
+    Body and footer modal
+  </button>
+  <template id="body-footer-modal">
+    <div class="backdrop">
+      <div class="modal">
+        <div class="modal-body">
+          <p>Modal without a header; only body and footer</p>
+        </div>
+        <div class="modal-footer">
+          <button>Ok</button>
+        </div>
+      </div>
+    </div>
+  </template>
+  <code></code>
+
+  Header, body and footer
+  <button data-open-modal data-template="full-modal">Full modal</button>
+  <template id="full-modal">
+    <div class="backdrop">
+      <div class="modal">
+        <h3>Modal header</h3>
+        <div class="modal-body">
+          <p>Full modal with header, body and footer</p>
+        </div>
+        <div class="modal-footer">
+          <button>Cancel</button>
+          <button>Ok</button>
+        </div>
+      </div>
+    </div>
+  </template>
+  <code></code>
+</div>

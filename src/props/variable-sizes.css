@@ -1,0 +1,9 @@
+:where(html) {
+  --size-relative-1: 0.25em;
+  --size-relative-2: 0.5em;
+  --size-relative-3: 1em;
+  --size-relative-4: 1.25em;
+  --size-relative-5: 1.5em;
+  --size-relative-6: 1.75em;
+  --size-relative-7: 2em;
+}

@@ -1,0 +1,32 @@
+:where(.tabs) {
+  display: flex;
+  border-bottom: var(--border-size-1) solid var(--gray-5);
+
+  & > :where(*) {
+    display: flex;
+    align-items: center;
+    gap: var(--size-relative-1);
+    color: var(--text-3);
+    padding-inline: var(--size-relative-3);
+    padding-block: var(--size-relative-1);
+
+    &:hover {
+      cursor: pointer;
+      color: var(--text-1);
+      border-bottom: var(--border-size-1) solid var(--gray-9);
+
+      @media (prefers-color-scheme: dark) {
+        border-color: var(--gray-1);
+      }
+    }
+
+    &:where(.active) {
+      color: var(--text-1);
+      border-bottom: var(--border-size-1) solid var(--gray-9);
+
+      @media (prefers-color-scheme: dark) {
+        border-color: var(--gray-1);
+      }
+    }
+  }
+}

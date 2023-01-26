@@ -1,0 +1,81 @@
+:where(button, .button) {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  padding-inline: var(--size-relative-3);
+  padding-block: var(--size-relative-2);
+  border-radius: var(--default-radius);
+  box-shadow: var(--shadow-3);
+  background-color: var(--brand);
+  gap: var(--size-relative-2);
+  border: var(--border-size-1) solid transparent;
+
+  color: var(--gray-1);
+  font-weight: var(--font-weight-5);
+
+  transition-duration: var(--default-animation-time);
+
+  &:hover::after {
+    opacity: 0.25;
+  }
+
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    inset: calc(-1 * var(--border-size-1));
+    background-color: hsla(0, 0%, 100%, 50%);
+    transition: opacity var(--default-animation-time);
+    opacity: 0;
+    border-radius: var(--default-radius);
+  }
+
+  &:active::after {
+    opacity: 0.5;
+    transition: 0s;
+  }
+
+  &:where(.outline) {
+    background-color: var(--surface-1);
+    color: var(--brand);
+    border-color: var(--brand);
+
+    &::after {
+      background-color: hsla(0, 0%, 0%, 25%);
+    }
+  }
+
+  &:where(.discrete) {
+    background-color: transparent;
+    color: var(--text-1);
+    border-color: transparent;
+    box-shadow: none;
+
+    &::after {
+      background-color: hsla(0, 0%, 0%, 25%);
+    }
+  }
+
+  &:disabled,
+  &:where(.disabled) {
+    pointer-events: none;
+
+    &::after {
+      opacity: 1;
+    }
+  }
+
+  &:where(.material-icons) {
+    padding-inline: var(--size-relative-2);
+    padding-block: var(--size-relative-2);
+  }
+
+  & :where(span.material-icons) {
+    &:where(.left) {
+      margin-left: calc(-1 * var(--size-relative-1));
+    }
+    &:where(.right) {
+      margin-right: calc(-1 * var(--size-relative-1));
+    }
+  }
+}

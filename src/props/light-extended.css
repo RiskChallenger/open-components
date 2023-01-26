@@ -1,0 +1,5 @@
+:where([data-theme="light"], .light, .light-theme) {
+  --surface-0: white;
+  --surface-contrast: var(--gray-10);
+  --text-contrast: var(--gray-0);
+}
