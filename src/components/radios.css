@@ -1,0 +1,48 @@
+:where(.radio) {
+  display: inline-block;
+  position: relative;
+  padding-left: calc(var(--size-relative-5) + var(--size-relative-3));
+  cursor: pointer;
+
+  &:hover :where(input:not(:checked)) ~ :where(.checkmark) {
+    background-color: var(--surface-4);
+  }
+
+  & :where(input) {
+    position: absolute;
+    height: 0;
+    width: 0;
+    opacity: 0;
+
+    &:checked ~ :where(.checkmark) {
+      background-color: var(--brand);
+
+      &:after {
+        transform: translate(-50%, -50%) rotate(45deg) scale(1);
+      }
+    }
+  }
+
+  & :where(.checkmark) {
+    position: absolute;
+    inset: 0;
+    height: var(--size-relative-5);
+    width: var(--size-relative-5);
+    background-color: var(--surface-3);
+    border-radius: 50%;
+    transition: background-color 300ms ease-in-out;
+
+    &:after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      width: 40%;
+      height: 40%;
+      border-radius: 50%;
+      background-color: var(--gray-1);
+      transform: translate(-50%, -50%) scale(0);
+      transition: transform 300ms ease-in-out;
+    }
+  }
+}

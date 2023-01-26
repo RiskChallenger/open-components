@@ -1,0 +1,45 @@
+{
+  "name": "@riskchallenger/open-components",
+  "private": false,
+  "version": "0.0.0-development",
+  "author": "RiskChallenger <info@riskchallenger.nl> (https://riskchallenger.nl)",
+  "source": "src/main.css",
+  "scripts": {
+    "build": "parcel build --dist-dir .",
+    "dev": "parcel",
+    "dev-docs": "parcel docs/src/index.html",
+    "build-docs": "parcel build docs/src/index.html --dist-dir . --public-url . --no-optimize",
+    "prepare": "husky install",
+    "semantic-release": "semantic-release"
+  },
+  "dependencies": {
+    "open-props": "^1.4.16"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.2",
+    "@semantic-release/git": "^10.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.49.0",
+    "@typescript-eslint/parser": "^5.49.0",
+    "eslint": "^8.32.0",
+    "eslint-config-prettier": "^8.6.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.0",
+    "parcel": "^2.8.2",
+    "postcss": "^8.4.21",
+    "postcss-nesting": "^10.2.0",
+    "posthtml-include": "^1.7.4",
+    "prettier": "2.8.3",
+    "semantic-release": "^19.0.3"
+  },
+  "files": [
+    "main.css",
+    "*.svg"
+  ],
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RiskChallenger/open-components.git"
+  }
+}

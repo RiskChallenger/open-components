@@ -1,0 +1,42 @@
+@import "npm:open-props/open-props.min.css";
+@import "npm:open-props/normalize.min.css";
+@import "npm:open-props/theme.light.switch.min.css";
+@import "npm:open-props/theme.dark.switch.min.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+@import "props/variable-sizes.css";
+@import "props/theme-extended.css";
+
+@import "components/buttons.css";
+
+@import "components/inputs.css";
+@import "components/selects.css";
+@import "components/checkboxes.css";
+@import "components/radios.css";
+
+@import "components/tabs.css";
+@import "components/modals.css";
+@import "components/tooltips.css";
+@import "components/toasts.css";
+
+:where(html) {
+  --brand: var(--cyan-6);
+  --default-radius: var(--radius-2);
+  --default-font-size: 16px;
+  --default-animation-time: 300ms;
+
+  @media (prefers-reduced-motion: reduce) {
+    --default-animation-time: 0s;
+  }
+
+  font-family: "Roboto", sans-serif;
+  font-weight: var(--font-weight-4);
+  font-size: var(--default-font-size);
+}
+
+:where(body) {
+  padding: var(--size-5);
+  color: var(--text-1);
+}

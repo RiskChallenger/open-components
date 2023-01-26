@@ -1,0 +1,34 @@
+:where(.toast) {
+  position: fixed;
+  z-index: var(--layer-important);
+  bottom: 0;
+  left: 50%;
+  min-width: var(--size-xs);
+  margin-inline: var(--size-7);
+  background-color: var(--surface-contrast);
+  color: var(--text-contrast);
+  padding: var(--size-3) var(--size-4);
+  border-radius: var(--default-radius);
+  box-shadow: var(--shadow-3);
+
+  animation-duration: var(--default-animation-time);
+  animation-fill-mode: forwards;
+  animation-delay: 0s, 5s;
+  animation-name: slide-up, slide-down;
+  animation-timing-function: ease-out, ease-in;
+}
+
+@keyframes slide-up {
+  from {
+    transform: translateX(-50%) translateY(100%);
+  }
+  to {
+    transform: translateX(-50%) translateY(calc(-1 * var(--size-5)));
+  }
+}
+
+@keyframes slide-down {
+  to {
+    transform: translateX(-50%) translateY(100%);
+  }
+}

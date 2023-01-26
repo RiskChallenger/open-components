@@ -1,0 +1,76 @@
+@import "../../src/main.css";
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-3);
+  padding: var(--size-5);
+  font-size: 1rem;
+}
+
+h1 {
+  color: var(--brand);
+  filter: brightness(0.9);
+}
+
+section {
+  padding: var(--size-3);
+  border-radius: var(--default-radius);
+  box-shadow: var(--shadow-3);
+  border: var(--border-size-1) solid var(--surface-2);
+  background-color: var(--surface-1);
+
+  & h2 {
+    margin-block-end: var(--size-5);
+  }
+}
+
+[data-color-picker] {
+  display: inline-block;
+  width: 60px;
+  height: 20px;
+  border-radius: var(--radius-6);
+  margin: var(--size-2);
+  cursor: pointer;
+}
+
+.three-columns {
+  display: grid;
+  grid-template-columns: min-content repeat(2, minmax(min-content, 1fr));
+  align-items: center;
+  justify-items: flex-start;
+  gap: var(--size-5);
+  white-space: nowrap;
+
+  & .header {
+    font-weight: var(--font-weight-7);
+  }
+}
+
+code {
+  white-space: pre;
+}
+
+#usage code,
+pre {
+  background-color: var(--surface-2);
+  padding: var(--size-relative-2) var(--size-relative-3);
+}
+
+.tabs {
+  min-width: 400px;
+}
+
+.tab-body {
+  display: none;
+  flex-direction: column;
+}
+
+#installation,
+#getting-started {
+  gap: var(--size-3);
+}
+
+#usage {
+  gap: var(--size-7);
+}

@@ -1,0 +1,21 @@
+:where([data-tooltip]) {
+  position: relative;
+
+  &:after {
+    position: absolute;
+    content: attr(data-tooltip);
+    padding: var(--size-relative-1) var(--size-relative-2);
+    background-color: var(--surface-1);
+    box-shadow: var(--shadow-3);
+    display: none;
+    opacity: 0;
+    border-radius: var(--default-radius);
+    top: 100%;
+    z-index: var(--layer-important);
+  }
+
+  &:hover:after {
+    display: block;
+    animation: var(--animation-fade-in) forwards;
+  }
+}

@@ -1,0 +1,75 @@
+:where(.backdrop) {
+  --animation-time: 500ms;
+  --body-padding: var(--size-4) var(--size-6);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  position: fixed;
+  inset: 0;
+  z-index: var(--layer-4);
+  background-color: hsla(0, 0%, 0%, 60%);
+  opacity: 0;
+  animation: fade-in var(--animation-time) var(--ease-3) forwards;
+}
+
+:where(.modal) {
+  position: relative;
+  background-color: var(--surface-1);
+  max-width: 1200px;
+  width: 100%;
+  animation: var(--animation-slide-in-down) forwards;
+
+  @media (min-width: 600px) {
+    width: max-content;
+    min-width: var(--size-xs);
+    top: calc(var(--size-8));
+    margin-bottom: var(--size-8);
+    border-radius: var(--radius-3);
+  }
+
+  & :where(h3) {
+    padding: var(--body-padding);
+    max-width: 100%;
+    border-bottom: 1px solid var(--gray-4);
+  }
+
+  & :where(.modal-body) {
+    padding: var(--body-padding);
+  }
+
+  & :where(.modal-footer) {
+    display: flex;
+    gap: var(--size-relative-3);
+    justify-content: flex-end;
+    border-top: 1px solid var(--gray-4);
+    padding: var(--body-padding);
+  }
+}
+
+:where(.removing) {
+  animation: fade-out var(--animation-time) var(--ease-3) forwards;
+
+  & :where(.modal) {
+    animation: var(--animation-slide-out-up) forwards;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}

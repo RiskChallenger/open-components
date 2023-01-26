@@ -1,0 +1,67 @@
+:where(input) {
+  background-color: var(--surface-0);
+  box-shadow: var(--shadow-2), 0 0 1px 1px var(--surface-2);
+  padding-inline: var(--size-relative-3);
+  padding-block: var(--size-relative-2);
+  border-radius: var(--default-radius);
+  transition: outline-width var(--default-animation-time);
+  outline: 0px solid var(--brand);
+  outline-offset: 0;
+
+  &:focus-visible {
+    outline-width: var(--border-size-2);
+    outline-color: var(--brand);
+  }
+
+  &::placeholder {
+    font-weight: var(--font-weight-5);
+    color: var(--text-3);
+    opacity: 1;
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    background-color: var(--surface-1);
+    border: var(--border-size-1) solid var(--surface-4);
+    color: var(--text-3);
+  }
+
+  &:where(.invalid) {
+    outline: var(--border-size-1) solid var(--red-8);
+  }
+
+  &[type="search"] {
+    padding-inline-start: calc(2 * var(--size-relative-2) + 24px);
+    background-image: url("/public/search_icon.svg");
+    background-position: var(--size-relative-2) center;
+    background-size: var(--size-relative-5);
+  }
+
+  &[type="mail"] {
+    padding-inline-start: calc(2 * var(--size-relative-2) + 24px);
+    background-image: url("/public/email_icon.svg");
+    background-position: var(--size-relative-2) center;
+    background-size: var(--size-relative-5);
+  }
+
+  &[type="password"] {
+    padding-inline-start: calc(2 * var(--size-relative-2) + 24px);
+    background-image: url("/public/lock_icon.svg");
+    background-position: var(--size-relative-2) center;
+    background-size: var(--size-relative-5);
+  }
+
+  &[type="text"][list] {
+    background-image: url("/public/chevron_down.svg");
+    background-position: calc(100% - 0.5em) center;
+    background-size: var(--size-relative-5);
+
+    &:focus {
+      background-image: url("/public/chevron_up.svg");
+    }
+
+    &::-webkit-calendar-picker-indicator {
+      color: transparent;
+    }
+  }
+}
