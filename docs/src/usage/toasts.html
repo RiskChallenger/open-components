@@ -1,5 +1,9 @@
 <h2>Toasts</h2>
-<p>Also known as a snackbar or simply notification</p>
+<p>
+  Also known as a snackbar or simply notification. Toasts should only contain
+  non-crucial information and should always dissapear automatically, with or
+  without an action. TODO make them stack
+</p>
 <div class="three-columns">
   <div class="header">Type</div>
   <div class="header">Example</div>
@@ -10,4 +14,15 @@
   <template id="text-toast">
     <div class="toast">Hello, this is a toast</div>
   </template>
+  <code></code>
+
+  With action
+  <button data-open-toast data-template="action-toast">Action toast</button>
+  <template id="action-toast">
+    <div class="toast">
+      I have an action
+      <button>Dismiss</button>
+    </div>
+  </template>
+  <code></code>
 </div>
