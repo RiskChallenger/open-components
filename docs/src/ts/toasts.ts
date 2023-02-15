@@ -9,6 +9,13 @@ export const initToasts = () => {
         true
       ) as HTMLElement;
       document.body.appendChild(toast);
+      setTimeout(() => {
+        toast.remove();
+      }, 60000);
+
+      setTimeout(() => {
+        toast.classList.add("early-out");
+      }, 1000);
     });
   });
 };

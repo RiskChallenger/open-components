@@ -7,15 +7,33 @@
   margin-inline: var(--size-7);
   background-color: var(--surface-contrast);
   color: var(--text-contrast);
-  padding: var(--size-3) var(--size-4);
+  padding: var(--size-relative-3) var(--size-relative-4);
   border-radius: var(--default-radius);
   box-shadow: var(--shadow-3);
+
+  display: flex;
+  justify-content: space-between;
 
   animation-duration: var(--default-animation-time);
   animation-fill-mode: forwards;
   animation-delay: 0s, 5s;
-  animation-name: slide-up, slide-down;
+  animation-name: slide-up, slide-up;
+  animation-direction: normal, reverse;
   animation-timing-function: ease-out, ease-in;
+
+  & :where(button) {
+    background: transparent;
+    color: var(--text-contrast);
+    margin-block: calc(-1 * var(--size-relative-2));
+    margin-right: calc(-1 * var(--size-relative-2));
+    padding-inline: var(--size-relative-2);
+    padding-block: var(--size-relative-1);
+  }
+
+  &.early-out {
+    /* Dit werkt nog niet lekker, somehow lagged hier iets door de forwards ofzo */
+    animation: slide-up reverse 3000ms 0ms ease-in forwards;
+  }
 }
 
 @keyframes slide-up {
@@ -24,11 +42,5 @@
   }
   to {
     transform: translateX(-50%) translateY(calc(-1 * var(--size-5)));
-  }
-}
-
-@keyframes slide-down {
-  to {
-    transform: translateX(-50%) translateY(100%);
   }
 }
