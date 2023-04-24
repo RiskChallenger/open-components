@@ -66,14 +66,15 @@ To learn how to use the components, simply check out the Usage tab on the Open C
 - Inputs (including autocomplete)
 - Selects
 - Checkboxes / radios
+- Textareas
 - Icons
 - Tabs / tab-menu
 - Modals
 - Tooltips
+- Toasts
 
 ## Future components
 
-- Toasts?
 - Progress bars?
-- Pills
+- Pills?
 - Suggestions are welcome! Please do make an issue 😄

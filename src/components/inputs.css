@@ -64,4 +64,27 @@
       color: transparent;
     }
   }
+
+  &[type="file"] {
+    border: none;
+    max-inline-size: 100%;
+    padding: 0;
+    background-color: var(--surface-0);
+  }
+}
+
+:where(input[type="file"])::-webkit-file-upload-button,
+:where(input[type="file"])::file-selector-button {
+  padding-inline: var(--size-relative-3);
+  padding-block: var(--size-relative-2);
+  border-radius: var(--default-radius);
+  box-shadow: var(--shadow-2), 0 0 1px 1px var(--surface-2);
+  background-color: var(--surface-1);
+  border: var(--border-size-1) solid transparent;
+
+  color: var(--text-1);
+  font-weight: var(--font-weight-5);
+
+  margin: var(--size-3);
+  cursor: pointer;
 }
