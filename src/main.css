@@ -38,6 +38,5 @@
 }
 
 :where(body) {
-  padding: var(--size-5);
   color: var(--text-1);
 }

@@ -13,9 +13,9 @@ Docs at https://riskchallenger.github.io/open-components/
 
 Import main.css in your application, here are some options depending on your bundler:
 
-- `@import "open-components/main.css";`
-- `@import "npm:open-components/main.css";`
-- `@import "/node_modules/open-components/main.css";`
+- `@import "@riskchallenger/open-components/main.css";`
+- `@import "npm:@riskchallenger/open-components/main.css";`
+- `@import "/node_modules/@riskchallenger/open-components/main.css";`
 
 That's it 😄
 
@@ -58,7 +58,7 @@ html {
 
 ## Usage
 
-To learn how to use the components, simply check out the Usage tab on the Open Components website where you can see them all in action with code samples as well. Check here: https://rienheuver.github.io/open-components/
+To learn how to use the components, simply check out the Usage tab on the Open Components website where you can see them all in action with code samples as well. Check here: https://riskchallenger.github.io/open-components/
 
 ## Implemented components
 
