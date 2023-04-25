@@ -9,7 +9,7 @@ Docs at https://riskchallenger.github.io/open-components/
 
 ## Installation
 
-`npm install open-components`
+`npm i @riskchallenger/open-components`
 
 Import main.css in your application, here are some options depending on your bundler:
 
