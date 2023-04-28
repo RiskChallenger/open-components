@@ -10,7 +10,7 @@
     padding-inline: var(--size-relative-3);
     padding-block: var(--size-relative-1);
 
-    &:hover {
+    &:where(:not(.disabled)):hover {
       cursor: pointer;
       color: var(--text-1);
       border-bottom: var(--border-size-1) solid var(--gray-9);
@@ -18,6 +18,10 @@
       @media (prefers-color-scheme: dark) {
         border-color: var(--gray-1);
       }
+    }
+
+    &:where(.disabled) {
+      cursor: not-allowed;
     }
 
     &:where(.active) {
