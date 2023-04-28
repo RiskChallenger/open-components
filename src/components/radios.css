@@ -5,7 +5,7 @@
   cursor: pointer;
 
   &:hover :where(input:not(:checked)) ~ :where(.checkmark) {
-    background-color: var(--surface-4);
+    background-color: var(--surface-2);
   }
 
   & :where(input) {
@@ -28,7 +28,8 @@
     inset: 0;
     height: var(--size-relative-5);
     width: var(--size-relative-5);
-    background-color: var(--surface-3);
+    background-color: var(--surface-0);
+    box-shadow: var(--shadow-2), 0 0 1px 1px var(--surface-2);
     border-radius: 50%;
     transition: background-color 300ms ease-in-out;
 
