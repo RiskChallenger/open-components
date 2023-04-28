@@ -1,3 +1,9 @@
+## [1.1.1](https://github.com/RiskChallenger/open-components/compare/v1.1.0...v1.1.1) (2023-04-28)
+
+### Bug Fixes
+
+- bring outline button background in line ([7897e87](https://github.com/RiskChallenger/open-components/commit/7897e8701da9d7e9ba6433ac9d20ae2a22ce17fb))
+
 # [1.1.0](https://github.com/RiskChallenger/open-components/compare/v1.0.1...v1.1.0) (2023-04-28)
 
 ### Bug Fixes
