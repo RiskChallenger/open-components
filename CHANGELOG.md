@@ -1,3 +1,9 @@
+# [1.2.0](https://github.com/RiskChallenger/open-components/compare/v1.1.1...v1.2.0) (2023-04-28)
+
+### Features
+
+- add scrollbar styling and fix some overflow issues ([8b2618a](https://github.com/RiskChallenger/open-components/commit/8b2618a6ef2d2d67da19e9c6347f4749f6a96174))
+
 ## [1.1.1](https://github.com/RiskChallenger/open-components/compare/v1.1.0...v1.1.1) (2023-04-28)
 
 ### Bug Fixes
