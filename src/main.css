@@ -25,7 +25,7 @@
 :where(html) {
   --brand: var(--cyan-6);
   --default-radius: var(--radius-2);
-  --default-font-size: 16px;
+  --default-font-size: 1rem;
   --default-animation-time: 300ms;
 
   @media (prefers-reduced-motion: reduce) {
