@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/RiskChallenger/open-components/compare/v1.0.1...v1.1.0) (2023-04-28)
+
+### Bug Fixes
+
+- align styling of checks/radios with other inputs ([39b6164](https://github.com/RiskChallenger/open-components/commit/39b6164b05602637dee133da0e71382c15e3df0b)), closes [#6](https://github.com/RiskChallenger/open-components/issues/6)
+- move from px to rem for font size ([eba57a0](https://github.com/RiskChallenger/open-components/commit/eba57a02231f77e497c31fd9ee922b9c93be1dc1)), closes [#5](https://github.com/RiskChallenger/open-components/issues/5)
+- put icon button size in line with other buttons ([1286135](https://github.com/RiskChallenger/open-components/commit/128613540f70f5bad7a83c615031f124e382ef64)), closes [#9](https://github.com/RiskChallenger/open-components/issues/9)
+
+### Features
+
+- add disabled state for tabs ([f245d21](https://github.com/RiskChallenger/open-components/commit/f245d213b04eea66a4ed0448803c3ef4de62caae)), closes [#8](https://github.com/RiskChallenger/open-components/issues/8)
+
 ## [1.0.1](https://github.com/RiskChallenger/open-components/compare/v1.0.0...v1.0.1) (2023-04-25)
 
 ### Bug Fixes
