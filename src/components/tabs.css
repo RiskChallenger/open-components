@@ -1,6 +1,7 @@
 :where(.tabs) {
   display: flex;
   border-bottom: var(--border-size-1) solid var(--gray-5);
+  overflow: auto;
 
   & > :where(*) {
     display: flex;

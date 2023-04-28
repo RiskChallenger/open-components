@@ -19,6 +19,7 @@ section {
   box-shadow: var(--shadow-3);
   border: var(--border-size-1) solid var(--surface-2);
   background-color: var(--surface-1);
+  overflow: auto;
 
   & h2 {
     margin-block-end: var(--size-5);
@@ -55,10 +56,6 @@ code {
 pre {
   background-color: var(--surface-2);
   padding: var(--size-relative-2) var(--size-relative-3);
-}
-
-.tabs {
-  min-width: 400px;
 }
 
 .tab-body {

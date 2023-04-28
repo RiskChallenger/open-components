@@ -17,6 +17,7 @@
 :where(.modal) {
   position: relative;
   background-color: var(--surface-1);
+  min-width: 100vw;
   max-width: 1200px;
   width: 100%;
   animation: var(--animation-slide-in-down) forwards;
@@ -37,6 +38,7 @@
 
   & :where(.modal-body) {
     padding: var(--body-padding);
+    overflow: auto;
   }
 
   & :where(.modal-footer) {

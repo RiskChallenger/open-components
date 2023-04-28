@@ -21,6 +21,7 @@
 @import "components/modals.css";
 @import "components/tooltips.css";
 @import "components/toasts.css";
+@import "components/scrollbars.css";
 
 :where(html) {
   --brand: var(--cyan-6);
