@@ -1,3 +1,9 @@
+# [1.3.0](https://github.com/RiskChallenger/open-components/compare/v1.2.0...v1.3.0) (2023-05-01)
+
+### Features
+
+- add button groups ([09904ee](https://github.com/RiskChallenger/open-components/commit/09904eea4ea082cb0a70ad5887bb8d918184e05b))
+
 # [1.2.0](https://github.com/RiskChallenger/open-components/compare/v1.1.1...v1.2.0) (2023-04-28)
 
 ### Features
