@@ -1,4 +1,4 @@
-:where(input) {
+:where(input:not([type="range"])) {
   background-color: var(--surface-0);
   box-shadow: var(--shadow-2), 0 0 1px 1px var(--surface-2);
   padding-inline: var(--size-relative-3);
