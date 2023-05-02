@@ -88,3 +88,7 @@
   margin: var(--size-3);
   cursor: pointer;
 }
+
+input[type="range"] {
+  height: var(--size-1);
+}
