@@ -1,3 +1,9 @@
+## [1.4.1](https://github.com/RiskChallenger/open-components/compare/v1.4.0...v1.4.1) (2023-05-02)
+
+### Bug Fixes
+
+- slightly better range input ([bf77040](https://github.com/RiskChallenger/open-components/commit/bf77040fe5b0e5fcc505c07e14fb3d83aad6196d))
+
 # [1.4.0](https://github.com/RiskChallenger/open-components/compare/v1.3.0...v1.4.0) (2023-05-02)
 
 ### Features
