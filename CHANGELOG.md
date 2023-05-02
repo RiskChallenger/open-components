@@ -1,3 +1,9 @@
+# [1.4.0](https://github.com/RiskChallenger/open-components/compare/v1.3.0...v1.4.0) (2023-05-02)
+
+### Features
+
+- add basic range input ([29ea848](https://github.com/RiskChallenger/open-components/commit/29ea848103936febdf30300e9a91a640f6ec9669))
+
 # [1.3.0](https://github.com/RiskChallenger/open-components/compare/v1.2.0...v1.3.0) (2023-05-01)
 
 ### Features
