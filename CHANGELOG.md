@@ -1,3 +1,9 @@
+## [1.4.2](https://github.com/RiskChallenger/open-components/compare/v1.4.1...v1.4.2) (2023-05-03)
+
+### Bug Fixes
+
+- allow for other modal headings ([2e0c6d7](https://github.com/RiskChallenger/open-components/commit/2e0c6d7ceae15494de9d75ac991fcf51bf2ec374))
+
 ## [1.4.1](https://github.com/RiskChallenger/open-components/compare/v1.4.0...v1.4.1) (2023-05-02)
 
 ### Bug Fixes
