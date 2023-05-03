@@ -30,18 +30,25 @@
     border-radius: var(--radius-3);
   }
 
-  & :where(h3) {
+  & > :where(h3, .modal-heading) {
     padding: var(--body-padding);
     max-width: 100%;
     border-bottom: 1px solid var(--gray-4);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &.modal-heading {
+      padding-inline-end: var(--size-3);
+    }
   }
 
-  & :where(.modal-body) {
+  & > :where(.modal-body) {
     padding: var(--body-padding);
     overflow: auto;
   }
 
-  & :where(.modal-footer) {
+  & > :where(.modal-footer) {
     display: flex;
     gap: var(--size-relative-3);
     justify-content: flex-end;
