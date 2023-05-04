@@ -1,3 +1,9 @@
+## [1.4.3](https://github.com/RiskChallenger/open-components/compare/v1.4.2...v1.4.3) (2023-05-04)
+
+### Bug Fixes
+
+- improve flexibility of modal structure ([31ba03f](https://github.com/RiskChallenger/open-components/commit/31ba03fa2d5bcc35834f96d46e87f230156a1fc9))
+
 ## [1.4.2](https://github.com/RiskChallenger/open-components/compare/v1.4.1...v1.4.2) (2023-05-03)
 
 ### Bug Fixes
