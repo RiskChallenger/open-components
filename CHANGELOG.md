@@ -1,3 +1,9 @@
+## [1.4.4](https://github.com/RiskChallenger/open-components/compare/v1.4.3...v1.4.4) (2023-05-11)
+
+### Bug Fixes
+
+- change input type mail to email ([7255e14](https://github.com/RiskChallenger/open-components/commit/7255e14e88615540a2ef8077eb8284d83db8feee)), closes [#10](https://github.com/RiskChallenger/open-components/issues/10)
+
 ## [1.4.3](https://github.com/RiskChallenger/open-components/compare/v1.4.2...v1.4.3) (2023-05-04)
 
 ### Bug Fixes
