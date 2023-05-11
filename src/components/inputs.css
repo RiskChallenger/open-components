@@ -37,7 +37,7 @@
     background-size: var(--size-relative-5);
   }
 
-  &[type="mail"] {
+  &[type="email"] {
     padding-inline-start: calc(2 * var(--size-relative-2) + 24px);
     background-image: url("/public/email_icon.svg");
     background-position: var(--size-relative-2) center;
