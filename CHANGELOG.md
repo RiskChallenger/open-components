@@ -1,3 +1,9 @@
+## [1.4.7](https://github.com/RiskChallenger/open-components/compare/v1.4.6...v1.4.7) (2023-05-26)
+
+### Bug Fixes
+
+- improve disabled styling on checkbox, radio, select ([6239e5b](https://github.com/RiskChallenger/open-components/commit/6239e5b44a3df42e0a238d4c787cbf7a49de7c5a)), closes [#11](https://github.com/RiskChallenger/open-components/issues/11)
+
 ## [1.4.6](https://github.com/RiskChallenger/open-components/compare/v1.4.5...v1.4.6) (2023-05-26)
 
 ### Bug Fixes
