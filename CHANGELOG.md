@@ -1,3 +1,9 @@
+## [1.4.5](https://github.com/RiskChallenger/open-components/compare/v1.4.4...v1.4.5) (2023-05-26)
+
+### Bug Fixes
+
+- allow combination of tooltips and buttons ([24fe876](https://github.com/RiskChallenger/open-components/commit/24fe87640b9a26c85a4d95199f303b758a94dc9e))
+
 ## [1.4.4](https://github.com/RiskChallenger/open-components/compare/v1.4.3...v1.4.4) (2023-05-11)
 
 ### Bug Fixes
