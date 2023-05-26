@@ -1,3 +1,9 @@
+## [1.4.6](https://github.com/RiskChallenger/open-components/compare/v1.4.5...v1.4.6) (2023-05-26)
+
+### Bug Fixes
+
+- show tooltips on one line ([b81a3e6](https://github.com/RiskChallenger/open-components/commit/b81a3e66d743c43df82acb9a4f23406e50dfb921))
+
 ## [1.4.5](https://github.com/RiskChallenger/open-components/compare/v1.4.4...v1.4.5) (2023-05-26)
 
 ### Bug Fixes
