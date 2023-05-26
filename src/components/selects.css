@@ -17,4 +17,11 @@
     outline-width: var(--border-size-2);
     background-image: url("/public/chevron_up.svg");
   }
+
+  &:disabled {
+    cursor: not-allowed;
+    background-color: var(--surface-1);
+    border: var(--border-size-1) solid var(--surface-4);
+    color: var(--text-3);
+  }
 }

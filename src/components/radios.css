@@ -21,6 +21,21 @@
         transform: translate(-50%, -50%) rotate(45deg) scale(1);
       }
     }
+
+    &:disabled ~ :where(.checkmark) {
+      cursor: not-allowed;
+      background-color: var(--surface-1);
+      border: var(--border-size-1) solid var(--surface-4);
+      color: var(--text-3);
+    }
+
+    &:checked:disabled ~ :where(.checkmark) {
+      background-color: var(--brand);
+
+      &:after {
+        border-color: var(--gray-3);
+      }
+    }
   }
 
   & :where(.checkmark) {
