@@ -35,7 +35,7 @@
     transition: 0s;
   }
 
-  &:where(.outline) {
+  &.outline {
     background-color: var(--surface-0);
     color: var(--brand);
     border-color: var(--brand);
@@ -43,9 +43,18 @@
     &::after {
       background-color: hsla(0, 0%, 0%, 25%);
     }
+
+    &:disabled {
+      color: var(--text-3);
+      border-color: var(--surface-4);
+
+      &::after {
+        opacity: 0.4;
+      }
+    }
   }
 
-  &:where(.discrete) {
+  &.discrete {
     background-color: transparent;
     color: var(--text-1);
     border-color: transparent;
@@ -54,10 +63,17 @@
     &::after {
       background-color: hsla(0, 0%, 0%, 25%);
     }
+
+    &:disabled {
+      color: var(--text-3);
+
+      &::after {
+        opacity: 0;
+      }
+    }
   }
 
-  &:disabled,
-  &:where(.disabled) {
+  &:disabled {
     pointer-events: none;
 
     &::after {
@@ -65,16 +81,16 @@
     }
   }
 
-  &:where(.material-icons) {
+  &.material-icons {
     padding-inline: var(--size-2);
     padding-block: var(--size-2);
   }
 
-  & :where(span.material-icons) {
-    &:where(.left) {
+  & span.material-icons {
+    &.left {
       margin-left: calc(-1 * var(--size-relative-1));
     }
-    &:where(.right) {
+    &.right {
       margin-right: calc(-1 * var(--size-relative-1));
     }
   }

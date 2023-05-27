@@ -1,8 +1,7 @@
 :where([data-tooltip]) {
   position: relative;
 
-  &:disabled,
-  &:where(.disabled) {
+  &:disabled {
     pointer-events: auto;
   }
 
