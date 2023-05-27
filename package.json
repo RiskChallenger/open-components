@@ -1,7 +1,7 @@
 {
   "name": "@riskchallenger/open-components",
   "private": false,
-  "version": "1.4.7",
+  "version": "1.4.8",
   "author": "RiskChallenger <info@riskchallenger.nl> (https://riskchallenger.nl)",
   "source": "src/main.css",
   "scripts": {

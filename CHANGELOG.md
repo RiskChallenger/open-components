@@ -1,3 +1,9 @@
+## [1.4.8](https://github.com/RiskChallenger/open-components/compare/v1.4.7...v1.4.8) (2023-05-27)
+
+### Bug Fixes
+
+- improve disabled look of buttons ([e724f50](https://github.com/RiskChallenger/open-components/commit/e724f50e1857a08a53a7e55980948c241dc8f0fd))
+
 ## [1.4.7](https://github.com/RiskChallenger/open-components/compare/v1.4.6...v1.4.7) (2023-05-26)
 
 ### Bug Fixes
