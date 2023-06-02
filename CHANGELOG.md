@@ -1,3 +1,9 @@
+## [1.4.9](https://github.com/RiskChallenger/open-components/compare/v1.4.8...v1.4.9) (2023-06-02)
+
+### Bug Fixes
+
+- improve input visibility with higher contrast ([c718c31](https://github.com/RiskChallenger/open-components/commit/c718c3107c2bca7067532687d91f1091e220b63c))
+
 ## [1.4.8](https://github.com/RiskChallenger/open-components/compare/v1.4.7...v1.4.8) (2023-05-27)
 
 ### Bug Fixes
