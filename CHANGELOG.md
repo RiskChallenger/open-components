@@ -1,3 +1,9 @@
+## [1.4.10](https://github.com/RiskChallenger/open-components/compare/v1.4.9...v1.4.10) (2023-06-02)
+
+### Bug Fixes
+
+- make extended props work with manual theme switching ([bddda36](https://github.com/RiskChallenger/open-components/commit/bddda36f6049d43c4d8b62f258f45c2d4f782f03))
+
 ## [1.4.9](https://github.com/RiskChallenger/open-components/compare/v1.4.8...v1.4.9) (2023-06-02)
 
 ### Bug Fixes
