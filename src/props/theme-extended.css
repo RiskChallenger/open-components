@@ -1,10 +1,7 @@
-@import "light-extended.css";
-@import "dark-extended.css";
-
 :where(html) {
   --surface-0: white;
   --surface-contrast: var(--gray-9);
-  --text-3: var(--gray-6);
+  --text-3: var(--gray-6); /* same for light and dark */
   --text-contrast: var(--gray-0);
 }
 

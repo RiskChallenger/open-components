@@ -8,6 +8,8 @@
 
 @import "props/variable-sizes.css";
 @import "props/theme-extended.css";
+@import "props/light-extended.css";
+@import "props/dark-extended.css";
 
 @import "components/buttons.css";
 @import "components/button-groups.css";
