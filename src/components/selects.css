@@ -1,6 +1,6 @@
 :where(select) {
   background-color: var(--surface-0);
-  box-shadow: var(--shadow-2), 0 0 1px 1px var(--surface-2);
+  box-shadow: var(--shadow-2), 0 0 1px 1px var(--surface-3);
   padding-block: var(--size-relative-2);
   padding-inline: var(--size-relative-3) var(--size-relative-7);
   border-radius: var(--default-radius);
