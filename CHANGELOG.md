@@ -1,3 +1,9 @@
+## [1.4.11](https://github.com/RiskChallenger/open-components/compare/v1.4.10...v1.4.11) (2023-06-15)
+
+### Bug Fixes
+
+- make modals scrollable with long content ([6c9249a](https://github.com/RiskChallenger/open-components/commit/6c9249ab06280ede41ecb2de0e7df7aabe83abff))
+
 ## [1.4.10](https://github.com/RiskChallenger/open-components/compare/v1.4.9...v1.4.10) (2023-06-02)
 
 ### Bug Fixes
