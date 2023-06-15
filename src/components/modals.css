@@ -16,15 +16,19 @@
 
 :where(.modal) {
   position: relative;
+  display: flex;
+  flex-direction: column;
   background-color: var(--surface-1);
   min-width: 100vw;
   max-width: 1200px;
+  max-height: 100vh;
   width: 100%;
   animation: var(--animation-slide-in-down) forwards;
 
   @media (min-width: 600px) {
     width: max-content;
     min-width: var(--size-xs);
+    max-height: calc(100vh - 2 * var(--size-8));
     top: calc(var(--size-8));
     margin-bottom: var(--size-8);
     border-radius: var(--radius-3);
