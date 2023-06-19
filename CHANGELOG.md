@@ -1,3 +1,9 @@
+## [1.4.13](https://github.com/RiskChallenger/open-components/compare/v1.4.12...v1.4.13) (2023-06-19)
+
+### Bug Fixes
+
+- correct discrete hover/active background ([edbb751](https://github.com/RiskChallenger/open-components/commit/edbb7515e8865e5f2e49a93d5268c38241691227))
+
 ## [1.4.12](https://github.com/RiskChallenger/open-components/compare/v1.4.11...v1.4.12) (2023-06-19)
 
 ### Bug Fixes
