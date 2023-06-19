@@ -1,3 +1,9 @@
+## [1.4.12](https://github.com/RiskChallenger/open-components/compare/v1.4.11...v1.4.12) (2023-06-19)
+
+### Bug Fixes
+
+- simplify button states, fix active tab border ([8ff1fee](https://github.com/RiskChallenger/open-components/commit/8ff1fee5598619699d16392ee0a75353c5a87eed))
+
 ## [1.4.11](https://github.com/RiskChallenger/open-components/compare/v1.4.10...v1.4.11) (2023-06-15)
 
 ### Bug Fixes
