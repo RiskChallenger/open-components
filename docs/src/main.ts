@@ -1,7 +1,8 @@
-import { initModals } from "./ts/modals";
-import { initTabs } from "./ts/tabs";
 import { initColorPicker } from "./ts/color-picker";
+import { initModals } from "./ts/modals";
 import { showCode } from "./ts/show-code";
+import { initTabs } from "./ts/tabs";
+import { initThemeSwitcher } from "./ts/theme-switcher";
 import { initToasts } from "./ts/toasts";
 
 window.onload = () => {
@@ -10,4 +11,5 @@ window.onload = () => {
   initTabs();
   initColorPicker();
   showCode();
+  initThemeSwitcher();
 };
