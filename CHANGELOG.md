@@ -1,3 +1,9 @@
+# [1.5.0](https://github.com/RiskChallenger/open-components/compare/v1.4.13...v1.5.0) (2023-06-28)
+
+### Features
+
+- add danger and warning buttons, upgrade dependencies ([8e4ee81](https://github.com/RiskChallenger/open-components/commit/8e4ee81df363d0ddadc69836c8dd3767005f25c7))
+
 ## [1.4.13](https://github.com/RiskChallenger/open-components/compare/v1.4.12...v1.4.13) (2023-06-19)
 
 ### Bug Fixes
