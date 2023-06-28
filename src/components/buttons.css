@@ -1,4 +1,6 @@
 :where(button, .button) {
+  --button-color: var(--brand);
+
   position: relative;
   display: inline-flex;
   align-items: center;
@@ -6,7 +8,7 @@
   padding-block: var(--size-relative-2);
   border-radius: var(--default-radius);
   box-shadow: var(--shadow-3);
-  background-color: var(--brand);
+  background-color: var(--button-color);
   gap: var(--size-relative-2);
   border: var(--border-size-1) solid transparent;
 
@@ -16,23 +18,23 @@
   transition-duration: var(--default-animation-time);
 
   &:hover {
-    background-color: color-mix(in srgb, var(--brand) 80%, white);
+    background-color: color-mix(in srgb, var(--button-color) 80%, white);
   }
 
   &:active {
-    background-color: color-mix(in srgb, var(--brand) 70%, white);
+    background-color: color-mix(in srgb, var(--button-color) 70%, white);
     transition: 0s;
   }
 
   &:disabled {
     pointer-events: none;
-    background-color: color-mix(in srgb, var(--brand) 60%, white);
+    background-color: color-mix(in srgb, var(--button-color) 60%, white);
   }
 
   &.outline {
     background-color: transparent;
-    color: var(--brand);
-    border-color: var(--brand);
+    color: var(--button-color);
+    border-color: var(--button-color);
 
     &:hover {
       background-color: color-mix(
@@ -97,5 +99,12 @@
     &.right {
       margin-right: calc(-1 * var(--size-relative-1));
     }
+  }
+
+  &.danger {
+    --button-color: var(--red-9);
+  }
+  &.warning {
+    --button-color: var(--yellow-7);
   }
 }
