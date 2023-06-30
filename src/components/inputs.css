@@ -69,6 +69,7 @@
     border: none;
     max-inline-size: 100%;
     padding: 0;
+    padding-inline-end: var(--size-relative-3);
     background-color: var(--surface-0);
   }
 }
