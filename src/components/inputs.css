@@ -27,7 +27,7 @@
   }
 
   &:where(.invalid) {
-    outline: var(--border-size-1) solid var(--red-8);
+    outline: var(--border-size-1) solid var(--red-9);
   }
 
   &[type="search"] {
