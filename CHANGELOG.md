@@ -1,3 +1,9 @@
+## [1.5.1](https://github.com/RiskChallenger/open-components/compare/v1.5.0...v1.5.1) (2023-06-30)
+
+### Bug Fixes
+
+- add padding to end of file input for other languages ([33a13a4](https://github.com/RiskChallenger/open-components/commit/33a13a480941a02069329f4ef0004f6a8da284b9)), closes [#12](https://github.com/RiskChallenger/open-components/issues/12)
+
 # [1.5.0](https://github.com/RiskChallenger/open-components/compare/v1.4.13...v1.5.0) (2023-06-28)
 
 ### Features
