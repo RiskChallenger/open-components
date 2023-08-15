@@ -20,9 +20,8 @@
     white-space: nowrap;
 
     /* Explicitly set font in case of tooltip on material-icons */
-    font-family: var(--default-font);
-    font-weight: var(--font-weight-4);
-    font-size: var(--default-font-size);
+    font-family: var(--font-sans);
+    font-size: var(--font-size-1);
   }
 
   &:hover:before {

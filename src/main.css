@@ -3,7 +3,6 @@
 @import "npm:open-props/theme.light.switch.min.css";
 @import "npm:open-props/theme.dark.switch.min.css";
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
 @import "props/variable-sizes.css";
@@ -29,17 +28,13 @@
 :where(html) {
   --brand: var(--cyan-6);
   --default-radius: var(--radius-2);
-  --default-font-size: 1rem;
   --default-animation-time: 300ms;
-  --default-font: "Roboto", sans-serif;
 
   @media (prefers-reduced-motion: reduce) {
     --default-animation-time: 0s;
   }
 
-  font-family: var(--default-font);
-  font-weight: var(--font-weight-4);
-  font-size: var(--default-font-size);
+  font-family: var(--font-sans);
 }
 
 :where(body) {
