@@ -7,7 +7,7 @@
   "scripts": {
     "build": "parcel build --dist-dir .",
     "dev": "parcel",
-    "dev-docs": "parcel docs/src/index.html",
+    "dev-docs": "parcel docs/src/index.html --target default",
     "build-docs": "parcel build docs/src/index.html --dist-dir . --public-url . --no-optimize",
     "prepare": "husky install",
     "semantic-release": "semantic-release"
@@ -24,7 +24,7 @@
     "eslint-config-prettier": "^8.6.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.1.0",
-    "parcel": "^2.8.2",
+    "parcel": "^2.9.3",
     "postcss": "^8.4.21",
     "postcss-nesting": "^10.2.0",
     "posthtml-include": "^1.7.4",
@@ -56,5 +56,11 @@
     "components",
     "props"
   ],
-  "license": "ISC"
+  "license": "ISC",
+  "@parcel/transformer-css": {
+    "drafts": {
+      "nesting": true
+    }
+  },
+  "browserslist": "> 0.5%, not dead"
 }
