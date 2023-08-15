@@ -1,3 +1,9 @@
+# [1.6.0](https://github.com/RiskChallenger/open-components/compare/v1.5.3...v1.6.0) (2023-08-15)
+
+### Features
+
+- respect system ui fonts ([d8c98ed](https://github.com/RiskChallenger/open-components/commit/d8c98eddb45c2817de995fa9877a8c292b2a8fd8)), closes [#16](https://github.com/RiskChallenger/open-components/issues/16)
+
 ## [1.5.3](https://github.com/RiskChallenger/open-components/compare/v1.5.2...v1.5.3) (2023-08-15)
 
 ### Bug Fixes
