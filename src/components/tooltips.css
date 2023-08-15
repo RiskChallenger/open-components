@@ -11,7 +11,6 @@
     padding: var(--size-relative-1) var(--size-relative-2);
     color: var(--text-1);
     background-color: var(--surface-1);
-    font-weight: normal;
     box-shadow: var(--shadow-3);
     display: none;
     opacity: 0;
@@ -19,6 +18,11 @@
     top: 100%;
     z-index: var(--layer-important);
     white-space: nowrap;
+
+    /* Explicitly set font in case of tooltip on material-icons */
+    font-family: var(--default-font);
+    font-weight: var(--font-weight-4);
+    font-size: var(--default-font-size);
   }
 
   &:hover:before {

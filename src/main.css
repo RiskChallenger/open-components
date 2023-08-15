@@ -31,12 +31,13 @@
   --default-radius: var(--radius-2);
   --default-font-size: 1rem;
   --default-animation-time: 300ms;
+  --default-font: "Roboto", sans-serif;
 
   @media (prefers-reduced-motion: reduce) {
     --default-animation-time: 0s;
   }
 
-  font-family: "Roboto", sans-serif;
+  font-family: var(--default-font);
   font-weight: var(--font-weight-4);
   font-size: var(--default-font-size);
 }
