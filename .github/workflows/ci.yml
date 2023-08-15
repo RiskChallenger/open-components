@@ -22,10 +22,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Use Node.js 14
+      - name: Use Node.js 18
         uses: actions/setup-node@v2-beta
         with:
-          node-version: 14
+          node-version: 18
 
       - name: Install dependencies
         run: npm install
