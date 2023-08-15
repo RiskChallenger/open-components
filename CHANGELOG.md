@@ -1,3 +1,10 @@
+## [1.5.3](https://github.com/RiskChallenger/open-components/compare/v1.5.2...v1.5.3) (2023-08-15)
+
+### Bug Fixes
+
+- allow for tooltips on material-icons ([f143411](https://github.com/RiskChallenger/open-components/commit/f143411a9e150aaf089d4bb1bdf11756b9fcc56e)), closes [#15](https://github.com/RiskChallenger/open-components/issues/15)
+- change media query syntax for better browser support ([dd2e7ff](https://github.com/RiskChallenger/open-components/commit/dd2e7ff99ef5543d18782149fd89b5ee92d6a21f)), closes [#13](https://github.com/RiskChallenger/open-components/issues/13)
+
 ## [1.5.2](https://github.com/RiskChallenger/open-components/compare/v1.5.1...v1.5.2) (2023-06-30)
 
 ### Bug Fixes
