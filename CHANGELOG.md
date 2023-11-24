@@ -1,3 +1,9 @@
+## [1.6.1](https://github.com/RiskChallenger/open-components/compare/v1.6.0...v1.6.1) (2023-11-24)
+
+### Bug Fixes
+
+- set correct file for unpkg publishing ([a2bacf9](https://github.com/RiskChallenger/open-components/commit/a2bacf908fe669ac41bca2fcffb59db133d55853))
+
 # [1.6.0](https://github.com/RiskChallenger/open-components/compare/v1.5.3...v1.6.0) (2023-08-15)
 
 ### Features
