@@ -35,6 +35,7 @@
     "main.css",
     "*.svg"
   ],
+  "unpkg": "main.css",
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
   },
