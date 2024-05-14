@@ -1,3 +1,9 @@
+## [1.6.3](https://github.com/RiskChallenger/open-components/compare/v1.6.2...v1.6.3) (2024-05-14)
+
+### Bug Fixes
+
+- show form buttons correctly ([c99fda6](https://github.com/RiskChallenger/open-components/commit/c99fda67739a950741fc7dd65fd986c324c42ed6))
+
 ## [1.6.2](https://github.com/RiskChallenger/open-components/compare/v1.6.1...v1.6.2) (2024-05-14)
 
 ### Bug Fixes
