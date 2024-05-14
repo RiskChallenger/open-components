@@ -1,4 +1,4 @@
-:where(button, .button) {
+:where(button, .button, input[type="button"]) {
   --button-color: var(--brand);
 
   position: relative;
