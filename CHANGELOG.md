@@ -1,3 +1,9 @@
+## [1.6.2](https://github.com/RiskChallenger/open-components/compare/v1.6.1...v1.6.2) (2024-05-14)
+
+### Bug Fixes
+
+- remove interaction from tooltips, update packages ([e1072f9](https://github.com/RiskChallenger/open-components/commit/e1072f9f25d08d9f12c6c977b3f5b897efdbfab1))
+
 ## [1.6.1](https://github.com/RiskChallenger/open-components/compare/v1.6.0...v1.6.1) (2023-11-24)
 
 ### Bug Fixes
