@@ -1,3 +1,9 @@
+## [1.6.4](https://github.com/RiskChallenger/open-components/compare/v1.6.3...v1.6.4) (2024-06-05)
+
+### Bug Fixes
+
+- set correct selector for inputs ([a8d0cbc](https://github.com/RiskChallenger/open-components/commit/a8d0cbc6edb8146326c172df95219bf2af92f03c))
+
 ## [1.6.3](https://github.com/RiskChallenger/open-components/compare/v1.6.2...v1.6.3) (2024-05-14)
 
 ### Bug Fixes
