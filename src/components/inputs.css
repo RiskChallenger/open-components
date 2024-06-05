@@ -1,4 +1,4 @@
-:where(input:not([type="range"]:not[type="button"])) {
+:where(input:not([type="range"], [type="button"])) {
   background-color: var(--surface-0);
   box-shadow: var(--shadow-2), 0 0 1px 1px var(--surface-3);
   padding-inline: var(--size-relative-3);
